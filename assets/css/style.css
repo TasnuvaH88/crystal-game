@@ -1,0 +1,16 @@
+body {
+  background-image: url("../images/background_blue_pattern.jpg");
+  background-repeat: repeat;
+}
+
+
+
+#instructions {
+  width: 400px;
+  height: 500px;
+  padding: 4px;
+  margin-bottom: 2px;
+  color: yellow;
+  background-color: #f4bf42;
+  margin-left: 2px;
+}
