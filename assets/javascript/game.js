@@ -113,7 +113,7 @@ $(document).ready(function() {
   renderMatchingNumber();
 
   // Here we create an on.click event for the crystals.
-  $(".crystal-img").on("click", function(event) {
+  $(".crystals-button").on("click", function(event) {
     // Update our "current guess" number and re-render it.
     updateMatchingNumber($(this));
     renderMatchingNumber();
