@@ -4,6 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Khand|NTR" rel="stylesheet">
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Crystal Game</title>
     <!-- CSS -->
@@ -11,20 +14,22 @@
 </head>
 
 <body>
-    <header id="heading"> Crystals Collector Game!</header>
-    <div id="instructions">
-        <h1>Instructions</h1>
-        <p> You will be given a random number at the start of the game.
-            <br> There are four crystals below. Each crystal has a number assigned to it. Every time you click on one, it will add that value to your total score.
-            <br> The number of each crystal is hidden from you, so you need to figure out the right combination to match your score to the randomized number.
-            <br> You will win when the numbers match, and lose if your number goes over. The values of each crystal change with each game!
+        <div id="instructions">
+    <h1 id="heading" > Crystal Guessing Game</h1>
+    
+        <h2>Instructions</h2>
+        <p>  You will be given a randomized number. 
+            <br>There are four crystals below. Each crystal has a number assigned to it. <br>Every time you click on one, it will add that value to your total score.
+            <br> The number of each crystal is hidden from you, so you need to figure out the right combination to match your score to the randomized number.<br>
+            <br> To win, you must end up with the same value as the number given to you! 
+            <br> If you go over the number, you lose. The values of each crystal change with each game!
+            
         </p>
     </div>
     <div id="game-section">
         <!---Displays Random Number -->
         <div id="random"></div>
-        <div id="statement"> </div>
-    </div>
+        <div id="statement"> </div></div>
 
     <div id="crystal-box"> 
         <div id="crystal-display"></div>

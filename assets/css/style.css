@@ -11,8 +11,37 @@ body {
 #crystal-box {
     margin: auto;
     width: 40%;
-    border: 3px solid green;
+    border: 3px solid navajowhite;
     padding: 10px;
+    
     
 }
 
+#instructions {
+  font-family:'Khand', sans-serif;
+  font-size: larger;
+  margin: auto;
+  border: 25px solid rgb(57, 57, 70);
+  padding: 30px;
+  text-align:center;
+
+
+}
+
+#heading {
+  text-align: center;
+}
+
+#game-section {
+  font-family: 'NTR', sans-serif;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+
+}
+
+#crystal-box {
+  font-family:  'NTR', sans-serif;
+  text-align: center;
+
+}
